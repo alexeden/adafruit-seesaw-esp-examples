@@ -1,0 +1,16 @@
+[package]
+name = "adafruit-seesaw-esp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+adafruit-seesaw = { path = "../adafruit-seesaw", features = ["std"]}
+esp-idf-hal = { version = "0.43" }
+esp-idf-svc = { version = "0.48" }
+log = { version = "0.4", default-features = false }
+shared-bus = { version = "0.3.1", features = ["std"] }
+
+
+[build-dependencies]
+embuild = "0.31"

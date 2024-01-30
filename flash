@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Run with --monitor to monitor
+
+echo $0
+
+DEV=$(ls /dev/tty.usb*)
+echo "DEV = ${DEV}"
+cargo espflash flash --baud 921600 --port $DEV $@

@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 4,
+  "rust-analyzer.cargo.target": "xtensa-esp32s3-espidf",
+  "rust-analyzer.diagnostics.disabled": ["unresolved-proc-macro"],
+  "rust-analyzer.inlayHints.maxLength": 100,
+  "rust-analyzer.inlayHints.parameterHints.enable": false
+}
