@@ -1,0 +1,1 @@
+> Using this repo to test the [Adafruit Seesaw](https://github.com/alexeden/adafruit-seesaw) library on ESP devices. Not really meant for external use but might be helpful if you're not sure how to get started.
